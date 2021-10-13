@@ -29,6 +29,7 @@ namespace tus1001CLB.Migrations
                 .WithColumn("CreateDate").AsDateTime()
                 .WithColumn("LastLogin").AsDateTime()
                 .WithColumn("IsDeleted").AsBoolean().WithDefaultValue(0);
+
         }
     }
 }
